@@ -50,7 +50,7 @@ def tambah_tugas(tasks):
     }
 
     tasks.append(task)
-    print(f"Tugas '{title}' berhasil ditambahkan dengan ID {task_id}!\n")
+    print(f"Tugas '{title}' berhasil ditambahkan")
 
 
 def tandai_selesai(tasks):
@@ -153,7 +153,7 @@ def main():
         elif choice == '5':
             edit_tugas(tasks)
         elif choice == '6':
-            print("Terima kasih, aplikasi ditutup.")
+            print("Terima kasih.")
             break
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
